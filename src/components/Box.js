@@ -55,6 +55,10 @@ export const Box = props => {
         <div className={boxClass(boxState)}
              onClick={hideMenuOnBoxClickHandler}>
 
+            <div className="Box__dummy-data">
+                <p className='Box__dummy-data-text'>email: a@b.c password: test1234</p>
+            </div>
+
             <div className="Box__menu-wrapper">
                 <div className="Box__menu-button"
                      onClick={() => setShowMenu(prev => prev === false)}>

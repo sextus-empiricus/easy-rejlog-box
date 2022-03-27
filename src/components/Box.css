@@ -27,6 +27,17 @@
     border-radius: 10px;
 }
 
+.Box__dummy-data {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.Box__dummy-data-text {
+    font-size: 1.3em;
+    color: rgba(245, 245, 245, 0.2);
+}
+
 .Box--failed::before {
     background: linear-gradient(90deg, #3e4ca7 0%, #d55151 100%);
     animation: gradient-animation 3s infinite alternate-reverse;
