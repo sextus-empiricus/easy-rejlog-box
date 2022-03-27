@@ -1,0 +1,73 @@
+.LoginForm {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.LoginForm__title {
+    margin-bottom: 10px;
+
+    font-size: 2.3em;
+    font-weight: 400;
+
+    text-shadow: 2px 2px 1px #463466;
+    text-align: center;
+}
+
+.LoginForm__label {
+    display: block;
+    position: relative;
+
+    font-weight: 300;
+    color: rgba(245, 245, 245, 0.7);
+    letter-spacing: 1px;
+}
+
+.LoginForm__input {
+    display: block;
+    margin: 4px 0 15px 0;
+    padding: 10px;
+
+    width: 100%;
+
+    background: none;
+    font-size: 2em;
+    color: whitesmoke;
+
+    border: 1px solid rgba(255, 192, 203, 0.2);
+    border-radius: 5px;
+}
+
+.LoginForm__input:focus {
+    outline: none;
+    border: 1px solid rgb(255 113 255 / 50%)
+}
+
+.LoginForm__eye-icon {
+    padding: 2px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-17%);
+
+    font-size: 2em;
+    color: rgba(245, 245, 245, 0.3);
+    z-index: 2;
+}
+
+.LoginForm__eye-icon:hover {
+    cursor: pointer;
+    color: rgb(255 191 255 / 50%);
+}
+
+.LoginForm__button-wrapper {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.LoginForm__button {
+    height: 40px;
+    width: 150px;
+
+    font-size: 1.5em;
+    font-weight: 300;
+    background-color: rgba(255, 255, 255, 0.035);
+}
